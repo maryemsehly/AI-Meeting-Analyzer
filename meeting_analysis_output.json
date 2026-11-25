@@ -1,0 +1,1107 @@
+{
+  "evaluation": {
+    "Nombre de mots du r\u00e9sum\u00e9": 304,
+    "Taux de compression": "15.35 %",
+    "Mode": "Inf\u00e9rence Op\u00e9rationnelle (Audio In\u00e9dit - Sans r\u00e9f\u00e9rence)",
+    "Audit Factuel": "V\u00e9rifi\u00e9 : Conforme au transcript (Z\u00e9ro pr\u00e9nom fictif g\u00e9n\u00e9r\u00e9)."
+  },
+  "executive_summary": "### 1. Executive Summary\nThe meeting focused on advancing the development of the smart recruitment platform, specifically addressing improvements in CV data extraction, enhancing the recommendation engine, refining the user interface, ensuring data security, and planning the testing phase. Progress includes preliminary enhancements to the extraction process and ongoing work on the recommendation model and UI design.\n\n### 2. Confirmed Decisions\n- [Marik (Project Manager)]: Integrate improved CV scanning capabilities by November 6.\n- [Gaurav (Developer)]: Optimize system performance and implement a caching mechanism by November 9.\n- [Jen (Developer)]: Complete dashboard features and finalize data deletion functionality by November 12.\n- [Amira (HR Team Member)]: Verify annotation results and schedule a meeting with the HR team on November 11.\n- [Nur (Legal Representative)]: Prepare a comparative analysis of OCR solutions and BDN options by November 13.\n- [Marik (Project Manager)]: Initiate global testing on November 16 and aim for a candidate version release on November 20.\n\n### 3. Action Items\n- [Kat (Designer)]: Simplify the dashboard layout and ensure quick understanding of candidate relevance by November 10.\n- [Marik (Project Manager)]: Update the meeting minutes and distribute them to relevant stakeholders.\n- [Jen (Developer)]: Develop the account deletion feature and ensure compatibility with existing functionalities.\n- [Amira (HR Team Member)]: Schedule a meeting with the HR team to review data privacy measures and obtain necessary approvals.\n- [Nur (Legal Representative)]: Provide a comprehensive report comparing various OCR solutions and BDN options by November 13.\n\n### 4. Open Questions & Next Steps\n- Confirm the feasibility of reducing costs through alternative AI models versus maintaining current expenses.\n- Discuss potential scalability issues and long-term maintenance plans post-launch.\n- Plan for additional training sessions for recruiters to familiarize themselves with new features.\n- Schedule a follow-up meeting within two weeks to assess progress against the",
+  "cues_detected": {
+    "decisions": [
+      "Aucune d\u00e9cision explicite isol\u00e9e"
+    ],
+    "actions": [
+      "Aucune t\u00e2che isol\u00e9e explicitement"
+    ]
+  },
+  "annotated_transcript": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.0,
+      "text": "Hello Nur, how are you today?",
+      "dialogue_act": "Be-Evaluation",
+      "confidence": 0.99
+    },
+    {
+      "id": 1,
+      "start": 4.0,
+      "end": 7.0,
+      "text": "Hi Mariam, I'm fine, thank you.",
+      "dialogue_act": "Be-Evaluation",
+      "confidence": 0.99
+    },
+    {
+      "id": 2,
+      "start": 7.0,
+      "end": 10.0,
+      "text": "It's a bit annoying but it's okay.",
+      "dialogue_act": "Be-Evaluation",
+      "confidence": 0.98
+    },
+    {
+      "id": 3,
+      "start": 10.0,
+      "end": 15.0,
+      "text": "We have a lot to discuss today, so I suggest we start right away.",
+      "dialogue_act": "Be-Evaluation",
+      "confidence": 0.74
+    },
+    {
+      "id": 4,
+      "start": 15.0,
+      "end": 20.0,
+      "text": "Yes, of course. I've prepared some other things about the launch of the platform.",
+      "dialogue_act": "Assess",
+      "confidence": 0.84
+    },
+    {
+      "id": 5,
+      "start": 20.0,
+      "end": 28.0,
+      "text": "Perfect. So, as you know, our goal is to launch the first version of our smart recruitment platform",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.75
+    },
+    {
+      "id": 6,
+      "start": 28.0,
+      "end": 35.0,
+      "text": "before the end of November. I would like to know where we are exactly.",
+      "dialogue_act": "Inform",
+      "confidence": 0.94
+    },
+    {
+      "id": 7,
+      "start": 35.0,
+      "end": 40.0,
+      "text": "Okay, to start, I've finished the part about the data treatment.",
+      "dialogue_act": "Inform",
+      "confidence": 0.92
+    },
+    {
+      "id": 8,
+      "start": 40.0,
+      "end": 47.0,
+      "text": "We currently have around 2500 CVs in our database.",
+      "dialogue_act": "Inform",
+      "confidence": 0.99
+    },
+    {
+      "id": 9,
+      "start": 47.0,
+      "end": 53.0,
+      "text": "The files are mainly in PDF format, but we also have some documents on Word.",
+      "dialogue_act": "Inform",
+      "confidence": 0.99
+    },
+    {
+      "id": 10,
+      "start": 53.0,
+      "end": 57.0,
+      "text": "Very well. Are all CVs properly treated?",
+      "dialogue_act": "Inform",
+      "confidence": 0.93
+    },
+    {
+      "id": 11,
+      "start": 57.0,
+      "end": 64.0,
+      "text": "Not exactly, about 85 documents are properly extracted.",
+      "dialogue_act": "Elicit-Assessment",
+      "confidence": 0.62
+    },
+    {
+      "id": 12,
+      "start": 64.0,
+      "end": 71.0,
+      "text": "Others contain problems in formatting, especially CVs with several columns, tablets or images.",
+      "dialogue_act": "Elicit-Assessment",
+      "confidence": 0.43
+    },
+    {
+      "id": 13,
+      "start": 71.0,
+      "end": 75.0,
+      "text": "So, we still have 15% of problematic documents.",
+      "dialogue_act": "Inform",
+      "confidence": 0.98
+    },
+    {
+      "id": 14,
+      "start": 75.0,
+      "end": 79.0,
+      "text": "Exactly, some CVs are only scanned in the form of images.",
+      "dialogue_act": "Inform",
+      "confidence": 0.99
+    },
+    {
+      "id": 15,
+      "start": 79.0,
+      "end": 86.0,
+      "text": "Our current system uses PIMU PDF to extract the text, but it doesn't work properly on scanned documents.",
+      "dialogue_act": "Inform",
+      "confidence": 0.98
+    },
+    {
+      "id": 16,
+      "start": 86.0,
+      "end": 90.0,
+      "text": "In this case, can we integrate a system in CR?",
+      "dialogue_act": "Assess",
+      "confidence": 0.49
+    },
+    {
+      "id": 17,
+      "start": 90.0,
+      "end": 97.0,
+      "text": "Yes, I thought I would use CR Act. I've already done some tests and the results are rather interesting.",
+      "dialogue_act": "Elicit-Assessment",
+      "confidence": 0.72
+    },
+    {
+      "id": 18,
+      "start": 97.0,
+      "end": 101.0,
+      "text": "However, we still need to improve the recognition of documents in French.",
+      "dialogue_act": "Elicit-Assessment",
+      "confidence": 0.81
+    },
+    {
+      "id": 19,
+      "start": 101.0,
+      "end": 107.0,
+      "text": "Okay, I think this improvement is important, but we shouldn't delay the rest of the project.",
+      "dialogue_act": "Assess",
+      "confidence": 0.72
+    },
+    {
+      "id": 20,
+      "start": 108.0,
+      "end": 115.0,
+      "text": "Let's talk about the formatting model between CVs and the columns.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.67
+    },
+    {
+      "id": 21,
+      "start": 115.0,
+      "end": 117.0,
+      "text": "Yes, let's study.",
+      "dialogue_act": "Assess",
+      "confidence": 0.82
+    },
+    {
+      "id": 22,
+      "start": 120.0,
+      "end": 122.0,
+      "text": "I've tested several approaches.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.95
+    },
+    {
+      "id": 23,
+      "start": 122.0,
+      "end": 126.0,
+      "text": "The first is used in PDF with the Equationous similarity.",
+      "dialogue_act": "Inform",
+      "confidence": 0.61
+    },
+    {
+      "id": 24,
+      "start": 126.0,
+      "end": 130.0,
+      "text": "The second is used in Sentence Bert to generate embeddings.",
+      "dialogue_act": "Inform",
+      "confidence": 1.0
+    },
+    {
+      "id": 25,
+      "start": 130.0,
+      "end": 137.0,
+      "text": "Finally, I also tested a multi-language model called BGE M3.",
+      "dialogue_act": "Inform",
+      "confidence": 0.99
+    },
+    {
+      "id": 26,
+      "start": 137.0,
+      "end": 140.0,
+      "text": "What approaches do we have in the future?",
+      "dialogue_act": "Inform",
+      "confidence": 0.99
+    },
+    {
+      "id": 27,
+      "start": 140.0,
+      "end": 150.0,
+      "text": "For the moment, BGE M3 gives the best results, particularly when the candidates use different formulations to write the same skills.",
+      "dialogue_act": "Inform",
+      "confidence": 0.93
+    },
+    {
+      "id": 28,
+      "start": 150.0,
+      "end": 152.0,
+      "text": "Can you give me an example?",
+      "dialogue_act": "Inform",
+      "confidence": 0.27
+    },
+    {
+      "id": 29,
+      "start": 152.0,
+      "end": 157.0,
+      "text": "Imagine that an offer requires a development experience with Java.",
+      "dialogue_act": "Assess",
+      "confidence": 0.8
+    },
+    {
+      "id": 30,
+      "start": 157.0,
+      "end": 165.0,
+      "text": "A candidate can write application development with Spring Boot, while others simply write Java, backend, development.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.53
+    },
+    {
+      "id": 31,
+      "start": 165.0,
+      "end": 170.0,
+      "text": "A research based solely on key elements risks not being identified correctly with their similarity.",
+      "dialogue_act": "Inform",
+      "confidence": 0.83
+    },
+    {
+      "id": 32,
+      "start": 170.0,
+      "end": 174.0,
+      "text": "Embeddings allow us to better understand the meaning of descriptions.",
+      "dialogue_act": "Inform",
+      "confidence": 0.49
+    },
+    {
+      "id": 33,
+      "start": 174.0,
+      "end": 179.0,
+      "text": "That's interesting. But do we have measurable results?",
+      "dialogue_act": "Inform",
+      "confidence": 0.57
+    },
+    {
+      "id": 34,
+      "start": 179.0,
+      "end": 193.0,
+      "text": "Yes, on our test game, we have a accuracy of 72% and Sentence Bert, 81% and BGE M3, 87%.",
+      "dialogue_act": "Elicit-Assessment",
+      "confidence": 0.53
+    },
+    {
+      "id": 35,
+      "start": 193.0,
+      "end": 197.0,
+      "text": "Very good. But how did you build your test game?",
+      "dialogue_act": "Elicit-Inform",
+      "confidence": 0.73
+    },
+    {
+      "id": 36,
+      "start": 197.0,
+      "end": 204.0,
+      "text": "I used 200 per se for the offer. Each pair was manually evaluated on their level.",
+      "dialogue_act": "Inform",
+      "confidence": 0.86
+    },
+    {
+      "id": 37,
+      "start": 204.0,
+      "end": 208.0,
+      "text": "We need a few corresponding ones, a medium one and a corresponding one.",
+      "dialogue_act": "Elicit-Inform",
+      "confidence": 0.73
+    },
+    {
+      "id": 38,
+      "start": 208.0,
+      "end": 213.0,
+      "text": "Okay. Have you ever been checked by a second person?",
+      "dialogue_act": "Inform",
+      "confidence": 0.99
+    },
+    {
+      "id": 39,
+      "start": 213.0,
+      "end": 219.0,
+      "text": "No, not yet. We can only check the majority of the notes.",
+      "dialogue_act": "Elicit-Inform",
+      "confidence": 0.94
+    },
+    {
+      "id": 40,
+      "start": 219.0,
+      "end": 226.0,
+      "text": "I think it would be better to check again by someone else to avoid the bgm.",
+      "dialogue_act": "Elicit-Inform",
+      "confidence": 0.9
+    },
+    {
+      "id": 41,
+      "start": 226.0,
+      "end": 232.0,
+      "text": "I agree. We can ask Amira, the HR team, to check a pair of 50.",
+      "dialogue_act": "Assess",
+      "confidence": 0.79
+    },
+    {
+      "id": 42,
+      "start": 232.0,
+      "end": 236.0,
+      "text": "Good idea. I'll send her a message after the meeting.",
+      "dialogue_act": "Assess",
+      "confidence": 0.47
+    },
+    {
+      "id": 43,
+      "start": 241.0,
+      "end": 245.0,
+      "text": "Have you encountered any other problems during the tests?",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.87
+    },
+    {
+      "id": 44,
+      "start": 245.0,
+      "end": 257.0,
+      "text": "Yes, mainly in the response, when an user imports a CV, the system currently takes 8-12 seconds to analyze the document and generate the recommendations.",
+      "dialogue_act": "Elicit-Inform",
+      "confidence": 0.3
+    },
+    {
+      "id": 45,
+      "start": 257.0,
+      "end": 262.0,
+      "text": "If a bit slow, your initial goal was to make it 5 seconds.",
+      "dialogue_act": "Elicit-Inform",
+      "confidence": 0.87
+    },
+    {
+      "id": 46,
+      "start": 262.0,
+      "end": 271.0,
+      "text": "Exactly. The problem mainly comes from the generation of the embedding and some requests in the vector base.",
+      "dialogue_act": "Inform",
+      "confidence": 0.72
+    },
+    {
+      "id": 47,
+      "start": 271.0,
+      "end": 275.0,
+      "text": "What data and user base do you currently have?",
+      "dialogue_act": "Inform",
+      "confidence": 0.98
+    },
+    {
+      "id": 48,
+      "start": 275.0,
+      "end": 282.0,
+      "text": "We use SQL PostgreSQL for the information of the user and Qdran for the embedding.",
+      "dialogue_act": "Assess",
+      "confidence": 0.78
+    },
+    {
+      "id": 49,
+      "start": 282.0,
+      "end": 287.0,
+      "text": "Do you want to optimize the research in Qdran?",
+      "dialogue_act": "Elicit-Inform",
+      "confidence": 0.63
+    },
+    {
+      "id": 50,
+      "start": 287.0,
+      "end": 293.0,
+      "text": "Yes, I tested different indexes and I managed to reduce the time of the research.",
+      "dialogue_act": "Elicit-Inform",
+      "confidence": 0.45
+    },
+    {
+      "id": 51,
+      "start": 293.0,
+      "end": 300.0,
+      "text": "The right seconds will take about 1.5 seconds, but the total time remains higher than our objective.",
+      "dialogue_act": "Elicit-Inform",
+      "confidence": 0.4
+    },
+    {
+      "id": 52,
+      "start": 300.0,
+      "end": 305.0,
+      "text": "And if we use a hidden system for the results already calculated?",
+      "dialogue_act": "Inform",
+      "confidence": 0.73
+    },
+    {
+      "id": 53,
+      "start": 305.0,
+      "end": 311.0,
+      "text": "It is possible. We could use Redis to store the results of the previous analysis.",
+      "dialogue_act": "Inform",
+      "confidence": 0.44
+    },
+    {
+      "id": 54,
+      "start": 311.0,
+      "end": 318.0,
+      "text": "However, we must be careful not to return the absolute results when a candidate modifies his CV.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.77
+    },
+    {
+      "id": 55,
+      "start": 318.0,
+      "end": 326.0,
+      "text": "You are right. We could associate each result with a CV version. If the document changes, we re-analyze it.",
+      "dialogue_act": "Assess",
+      "confidence": 0.77
+    },
+    {
+      "id": 56,
+      "start": 326.0,
+      "end": 329.0,
+      "text": "Yes, exactly. It is a good solution.",
+      "dialogue_act": "Assess",
+      "confidence": 0.61
+    },
+    {
+      "id": 57,
+      "start": 329.0,
+      "end": 333.0,
+      "text": "Can you implement this functionality this week?",
+      "dialogue_act": "Assess",
+      "confidence": 0.88
+    },
+    {
+      "id": 58,
+      "start": 333.0,
+      "end": 339.0,
+      "text": "I can try, but I would need at least 3 days to develop the mechanism correctly.",
+      "dialogue_act": "Assess",
+      "confidence": 0.56
+    },
+    {
+      "id": 59,
+      "start": 339.0,
+      "end": 343.0,
+      "text": "Okay, we will add it to the plan.",
+      "dialogue_act": "Elicit-Inform",
+      "confidence": 0.59
+    },
+    {
+      "id": 60,
+      "start": 343.0,
+      "end": 349.0,
+      "text": "Now I would like to talk about the interface. I saw the last version on Figma.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.61
+    },
+    {
+      "id": 61,
+      "start": 349.0,
+      "end": 354.0,
+      "text": "Overall, the design is clean, but I find that the dashboard is a bit loaded.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.75
+    },
+    {
+      "id": 62,
+      "start": 354.0,
+      "end": 361.0,
+      "text": "Yes, I also noticed that. We currently display the corresponding score, the detected skills,",
+      "dialogue_act": "Inform",
+      "confidence": 0.89
+    },
+    {
+      "id": 63,
+      "start": 361.0,
+      "end": 366.0,
+      "text": "professional experience and recommendations in the same page.",
+      "dialogue_act": "Assess",
+      "confidence": 0.94
+    },
+    {
+      "id": 64,
+      "start": 366.0,
+      "end": 376.0,
+      "text": "I think we need to simplify the display. A recruiter must be able to quickly understand why a candidate corresponds to an offer.",
+      "dialogue_act": "Inform",
+      "confidence": 0.67
+    },
+    {
+      "id": 65,
+      "start": 376.0,
+      "end": 384.0,
+      "text": "We could display the main information in the top, the matching score, the corresponding skills and the missing skills.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.96
+    },
+    {
+      "id": 66,
+      "start": 384.0,
+      "end": 389.0,
+      "text": "Then we could add a detailed success for professional experiences.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.95
+    },
+    {
+      "id": 67,
+      "start": 389.0,
+      "end": 393.0,
+      "text": "Yes, that's much better. And concerning the colors?",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.97
+    },
+    {
+      "id": 68,
+      "start": 393.0,
+      "end": 401.0,
+      "text": "I propose to keep the blue as the main color, the green for the corresponding skills and the orange for the missing skills.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.88
+    },
+    {
+      "id": 69,
+      "start": 401.0,
+      "end": 408.0,
+      "text": "Okay, but be careful with accessibility. We don't need the information to depend only on the colors.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.68
+    },
+    {
+      "id": 70,
+      "start": 408.0,
+      "end": 414.0,
+      "text": "As a reminder, we will also add textual skills.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.97
+    },
+    {
+      "id": 71,
+      "start": 414.0,
+      "end": 422.0,
+      "text": "Another thing, I would like to add a filter that allows me to try the candidates according to their corresponding score.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.42
+    },
+    {
+      "id": 72,
+      "start": 422.0,
+      "end": 428.0,
+      "text": "This filter is already available in my branch of development, but I haven't finished the tests yet.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.92
+    },
+    {
+      "id": 73,
+      "start": 428.0,
+      "end": 435.0,
+      "text": "Perfect. Can we also filter the candidates per year of experience and at the level of the studies?",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.88
+    },
+    {
+      "id": 74,
+      "start": 435.0,
+      "end": 443.0,
+      "text": "Yes, but it will need some modifications at the level of the baccantus. I can add these filters before or after the day.",
+      "dialogue_act": "Elicit-Assessment",
+      "confidence": 0.59
+    },
+    {
+      "id": 75,
+      "start": 443.0,
+      "end": 448.0,
+      "text": "Very well. Don't forget to check that the filters can be combined.",
+      "dialogue_act": "Elicit-Assessment",
+      "confidence": 0.47
+    },
+    {
+      "id": 76,
+      "start": 448.0,
+      "end": 454.0,
+      "text": "There is another important subject that we haven't yet addressed, the security of the data.",
+      "dialogue_act": "Inform",
+      "confidence": 0.57
+    },
+    {
+      "id": 77,
+      "start": 454.0,
+      "end": 462.0,
+      "text": "Yes, I started working on this part. The words are already hashed, the routes are sensitive, and need an authentication.",
+      "dialogue_act": "Inform",
+      "confidence": 0.71
+    },
+    {
+      "id": 78,
+      "start": 462.0,
+      "end": 468.0,
+      "text": "And concerning the CVs, are there any documents that contain a lot of personal information?",
+      "dialogue_act": "Inform",
+      "confidence": 0.99
+    },
+    {
+      "id": 79,
+      "start": 468.0,
+      "end": 476.0,
+      "text": "For the moment, the files without stockings have a private space on our server, only the users are authorized to access the documents.",
+      "dialogue_act": "Inform",
+      "confidence": 0.88
+    },
+    {
+      "id": 80,
+      "start": 476.0,
+      "end": 481.0,
+      "text": "Have we planned a functionality that allows the candidates to prepare their CV?",
+      "dialogue_act": "Elicit-Inform",
+      "confidence": 0.96
+    },
+    {
+      "id": 81,
+      "start": 481.0,
+      "end": 487.0,
+      "text": "Not yet. Currently, they can replace their documents, but not definitely delete their accounts and their data.",
+      "dialogue_act": "Elicit-Inform",
+      "confidence": 0.89
+    },
+    {
+      "id": 82,
+      "start": 487.0,
+      "end": 496.0,
+      "text": "You absolutely need to add this possibility before launching. We also need to define a conservation policy of the data.",
+      "dialogue_act": "Elicit-Inform",
+      "confidence": 0.91
+    },
+    {
+      "id": 83,
+      "start": 496.0,
+      "end": 501.0,
+      "text": "I agree. I can develop a functionality to delete accounts and documents associated.",
+      "dialogue_act": "Assess",
+      "confidence": 0.5
+    },
+    {
+      "id": 84,
+      "start": 501.0,
+      "end": 513.0,
+      "text": "Be careful. You also need to delete the embeddings associated with the data. Otherwise, some information could remain in our system after the CV's removal.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.63
+    },
+    {
+      "id": 85,
+      "start": 513.0,
+      "end": 517.0,
+      "text": "Yes, I will add this step in the process of removal.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.87
+    },
+    {
+      "id": 86,
+      "start": 517.0,
+      "end": 527.0,
+      "text": "Perfect. And I will ask our legal responsibility to verify the requirements related to the RGPD before launching.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.66
+    },
+    {
+      "id": 87,
+      "start": 527.0,
+      "end": 537.0,
+      "text": "Well, I think we have covered the main technical issues. Now I would like to fix the next issues.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.88
+    },
+    {
+      "id": 88,
+      "start": 537.0,
+      "end": 540.0,
+      "text": "What are the priorities according to you?",
+      "dialogue_act": "Inform",
+      "confidence": 0.57
+    },
+    {
+      "id": 89,
+      "start": 540.0,
+      "end": 547.0,
+      "text": "First, we need to improve the extraction of CVs. Second, we need to finalize the model of MOTCHINIC.",
+      "dialogue_act": "Inform",
+      "confidence": 0.84
+    },
+    {
+      "id": 90,
+      "start": 547.0,
+      "end": 551.0,
+      "text": "Finally, we need to finish the main features of the dashboard.",
+      "dialogue_act": "Elicit-Assessment",
+      "confidence": 0.56
+    },
+    {
+      "id": 91,
+      "start": 551.0,
+      "end": 561.0,
+      "text": "I think we should also give priority to security. It would be reasonable to launch a platform that does not allow users to delete their data.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.46
+    },
+    {
+      "id": 92,
+      "start": 561.0,
+      "end": 566.0,
+      "text": "You are right. We will therefore integrate security among the priorities of this week.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.85
+    },
+    {
+      "id": 93,
+      "start": 566.0,
+      "end": 573.0,
+      "text": "To be realistic, I propose the next plan. Finish the integration of the CIR on November 6.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.68
+    },
+    {
+      "id": 94,
+      "start": 573.0,
+      "end": 580.0,
+      "text": "Finalize the performance optimizations on November 9. And finish the features of the dashboard on November 10.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.62
+    },
+    {
+      "id": 95,
+      "start": 580.0,
+      "end": 588.0,
+      "text": "Wait, November 9 is on Monday. Do you really think we can finish the optimization so far?",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.8
+    },
+    {
+      "id": 96,
+      "start": 588.0,
+      "end": 592.0,
+      "text": "Yes, if I start tomorrow and if I don't have any additional problems.",
+      "dialogue_act": "Elicit-Inform",
+      "confidence": 0.32
+    },
+    {
+      "id": 97,
+      "start": 592.0,
+      "end": 600.0,
+      "text": "Okay, on my side, I will organize a meeting with the RGPD on November 11 to validate the results of the match.",
+      "dialogue_act": "Elicit-Inform",
+      "confidence": 0.55
+    },
+    {
+      "id": 98,
+      "start": 600.0,
+      "end": 604.0,
+      "text": "Very good. And for the functionality of this data?",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.68
+    },
+    {
+      "id": 99,
+      "start": 604.0,
+      "end": 607.0,
+      "text": "I propose to finish it before November 12.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.93
+    },
+    {
+      "id": 100,
+      "start": 607.0,
+      "end": 609.0,
+      "text": "That seems feasible to me.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.91
+    },
+    {
+      "id": 101,
+      "start": 609.0,
+      "end": 613.0,
+      "text": "Then we will be able to start the global test on November 16.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.94
+    },
+    {
+      "id": 102,
+      "start": 613.0,
+      "end": 618.0,
+      "text": "We will have to prepare at least 4 days before preparing the final version.",
+      "dialogue_act": "Assess",
+      "confidence": 0.88
+    },
+    {
+      "id": 103,
+      "start": 618.0,
+      "end": 624.0,
+      "text": "Okay, we can therefore aim for a candidate version on November 20.",
+      "dialogue_act": "Inform",
+      "confidence": 0.71
+    },
+    {
+      "id": 104,
+      "start": 625.0,
+      "end": 633.0,
+      "text": "Before finishing, I would like to quickly discuss the budget.",
+      "dialogue_act": "Inform",
+      "confidence": 0.5
+    },
+    {
+      "id": 105,
+      "start": 633.0,
+      "end": 640.0,
+      "text": "We received an estimation of costs, savings and the use of artificial intelligence services.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.89
+    },
+    {
+      "id": 106,
+      "start": 640.0,
+      "end": 650.0,
+      "text": "Yes, I have consulted the estimates. For the moment, the monthly costs are about 180 euros, mainly because of the storage server.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.68
+    },
+    {
+      "id": 107,
+      "start": 651.0,
+      "end": 653.0,
+      "text": "Does this amount include the OCR services?",
+      "dialogue_act": "Inform",
+      "confidence": 0.99
+    },
+    {
+      "id": 108,
+      "start": 653.0,
+      "end": 660.0,
+      "text": "No, it is only about 180 euros for the current structure, but it is only for OCR services.",
+      "dialogue_act": "Inform",
+      "confidence": 0.98
+    },
+    {
+      "id": 109,
+      "start": 660.0,
+      "end": 667.0,
+      "text": "Exter has the cost of 30 to 50 euros, for me, according to the volume of documents.",
+      "dialogue_act": "Elicit-Inform",
+      "confidence": 0.58
+    },
+    {
+      "id": 110,
+      "start": 667.0,
+      "end": 674.0,
+      "text": "I prefer to avoid increasing the budget for the moment. Will an open source solution be sufficient?",
+      "dialogue_act": "Inform",
+      "confidence": 0.81
+    },
+    {
+      "id": 111,
+      "start": 674.0,
+      "end": 680.0,
+      "text": "Yes, it will be sufficient to meet the initial needs, even if we have to make some optimizations.",
+      "dialogue_act": "Inform",
+      "confidence": 0.6
+    },
+    {
+      "id": 112,
+      "start": 680.0,
+      "end": 689.0,
+      "text": "Very good. We will then start with these solutions and re-evaluate the situation after the first month of use.",
+      "dialogue_act": "Assess",
+      "confidence": 0.47
+    },
+    {
+      "id": 113,
+      "start": 689.0,
+      "end": 696.0,
+      "text": "Okay, I also think that we could reduce costs by using a model of a BDN that is lost on our server.",
+      "dialogue_act": "Assess",
+      "confidence": 0.94
+    },
+    {
+      "id": 114,
+      "start": 696.0,
+      "end": 703.0,
+      "text": "It is interesting, but we will have to compare the costs of additional infrastructure with those of an external service.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.71
+    },
+    {
+      "id": 115,
+      "start": 703.0,
+      "end": 707.0,
+      "text": "I will prepare a small technical and financial comparison.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.96
+    },
+    {
+      "id": 116,
+      "start": 707.0,
+      "end": 711.0,
+      "text": "Perfect. Can you give me this analysis before November 13?",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.91
+    },
+    {
+      "id": 117,
+      "start": 711.0,
+      "end": 713.0,
+      "text": "Yes, no problem.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.94
+    },
+    {
+      "id": 118,
+      "start": 713.0,
+      "end": 722.0,
+      "text": "Okay, I think we are at the end of our meeting. I will recap the decisions to be sure that we agree.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.89
+    },
+    {
+      "id": 119,
+      "start": 722.0,
+      "end": 724.0,
+      "text": "Go ahead.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.38
+    },
+    {
+      "id": 120,
+      "start": 724.0,
+      "end": 731.0,
+      "text": "First, you will integrate your selects to improve the extraction of CVs scanned before November 6.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.67
+    },
+    {
+      "id": 121,
+      "start": 731.0,
+      "end": 733.0,
+      "text": "Yes, that is correct.",
+      "dialogue_act": "Inform",
+      "confidence": 0.71
+    },
+    {
+      "id": 122,
+      "start": 733.0,
+      "end": 742.0,
+      "text": "Second, you will optimize the performance of the system and integrate a hidden mechanism with ready before November 9.",
+      "dialogue_act": "Inform",
+      "confidence": 0.73
+    },
+    {
+      "id": 123,
+      "start": 742.0,
+      "end": 743.0,
+      "text": "Exactly.",
+      "dialogue_act": "Assess",
+      "confidence": 0.85
+    },
+    {
+      "id": 124,
+      "start": 743.0,
+      "end": 754.0,
+      "text": "Third, you will finalize the files of the dashboard before November 10 and develop the functionality of the data suppression before November 12.",
+      "dialogue_act": "Inform",
+      "confidence": 0.99
+    },
+    {
+      "id": 125,
+      "start": 754.0,
+      "end": 755.0,
+      "text": "Yes.",
+      "dialogue_act": "Inform",
+      "confidence": 0.56
+    },
+    {
+      "id": 126,
+      "start": 755.0,
+      "end": 761.0,
+      "text": "On my side, I will contact Amira to verify the annotations of the test game.",
+      "dialogue_act": "Inform",
+      "confidence": 0.93
+    },
+    {
+      "id": 127,
+      "start": 761.0,
+      "end": 770.0,
+      "text": "Organize the meeting with the RH team on November 11 and ask for a validation of the data confidentiality.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.63
+    },
+    {
+      "id": 128,
+      "start": 770.0,
+      "end": 777.0,
+      "text": "And I will also prepare the comparison between OCR solutions, the different options of distribution before November 13.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.77
+    },
+    {
+      "id": 129,
+      "start": 777.0,
+      "end": 778.0,
+      "text": "Exactly.",
+      "dialogue_act": "Inform",
+      "confidence": 0.61
+    },
+    {
+      "id": 130,
+      "start": 778.0,
+      "end": 788.0,
+      "text": "Finally, we will start the tests in the global on November 16 and we will aim for a candidate version on November 20.",
+      "dialogue_act": "Offer-Suggestion",
+      "confidence": 0.73
+    },
+    {
+      "id": 131,
+      "start": 788.0,
+      "end": 792.0,
+      "text": "Everything is clear for me. I will update the following table after the meeting.",
+      "dialogue_act": "Assess",
+      "confidence": 0.64
+    },
+    {
+      "id": 132,
+      "start": 792.0,
+      "end": 804.0,
+      "text": "Great. Thank you for your cooperation. I know the plan is quite loaded, but I think we can reach our goal if we respect the priorities.",
+      "dialogue_act": "Inform",
+      "confidence": 0.56
+    },
+    {
+      "id": 133,
+      "start": 804.0,
+      "end": 807.0,
+      "text": "Thank you, Marium. We will do our best.",
+      "dialogue_act": "Be-Evaluation",
+      "confidence": 0.35
+    },
+    {
+      "id": 134,
+      "start": 807.0,
+      "end": 810.0,
+      "text": "Very well. Good day and see you soon.",
+      "dialogue_act": "Be-Evaluation",
+      "confidence": 0.93
+    },
+    {
+      "id": 135,
+      "start": 810.0,
+      "end": 811.0,
+      "text": "See you soon.",
+      "dialogue_act": "Be-Evaluation",
+      "confidence": 0.99
+    }
+  ]
+}

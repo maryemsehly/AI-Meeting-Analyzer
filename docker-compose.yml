@@ -1,0 +1,30 @@
+﻿services:
+  meeting-analyzer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: ai-meeting-analyzer
+
+    ports:
+      - "8501:8501"
+
+    gpus:
+      - driver: nvidia
+        count: all
+        capabilities: [gpu]
+
+    volumes:
+      - .:/app
+      - huggingface_cache:/root/.cache/huggingface
+      - whisper_cache:/root/.cache/whisper
+
+    environment:
+      - HF_HOME=/root/.cache/huggingface
+      - PYTHONUNBUFFERED=1
+
+    shm_size: "1gb"
+
+volumes:
+  huggingface_cache:
+  whisper_cache:

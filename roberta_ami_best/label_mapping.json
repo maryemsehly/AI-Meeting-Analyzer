@@ -1,0 +1,30 @@
+{
+  "label2id": {
+    "Assess": 0,
+    "Backchannel": 1,
+    "Be-Evaluation": 2,
+    "Elicit-Assessment": 3,
+    "Elicit-Inform": 4,
+    "Elicit-Offer-Or-Suggestion": 5,
+    "Fragment": 6,
+    "Inform": 7,
+    "Offer-Suggestion": 8,
+    "Other": 9,
+    "Stall": 10,
+    "Understanding-Related": 11
+  },
+  "id2label": {
+    "0": "Assess",
+    "1": "Backchannel",
+    "2": "Be-Evaluation",
+    "3": "Elicit-Assessment",
+    "4": "Elicit-Inform",
+    "5": "Elicit-Offer-Or-Suggestion",
+    "6": "Fragment",
+    "7": "Inform",
+    "8": "Offer-Suggestion",
+    "9": "Other",
+    "10": "Stall",
+    "11": "Understanding-Related"
+  }
+}
